@@ -11,7 +11,7 @@ public class AdminOperation implements AdminOperationInterface {
 	/*
 	 * cancel the booking by userid
 	 */
-	DeskOperationInterface doi = new DeskOperation();
+	DeskOperationInterface doi = new DeskOperation(); 
 
 	@Override
 	public String cancelBookingbyDeskid(int id) {
